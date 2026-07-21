@@ -8,3 +8,4 @@ mysql -u root -e "
   ALTER USER 'root'@'localhost' IDENTIFIED BY 'RoboShop@1';
   FLUSH PRIVILEGES;
 "
+mysql -u root -pRoboShop@1 -e "SHOW DATABASES;"
