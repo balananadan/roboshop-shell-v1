@@ -1,7 +1,6 @@
 dnf install -y python3 python3-pip
 cp notification.service /etc/systemd/system/notification.service
 
-
 useradd -d /app -r -s /bin/false appuser
 rm -rf /app
 mkdir -p /app
